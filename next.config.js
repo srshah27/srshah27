@@ -9,6 +9,7 @@ const nextConfig = {
       'imagedelivery.net',
     ],
   },
+  basePath: '/srshah27'
 }
 
 module.exports = nextConfig
