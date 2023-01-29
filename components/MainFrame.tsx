@@ -8,7 +8,7 @@ export const MainFrame = () => {
         <Image
           className="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
           alt="hero"
-          src="/../public/img/sunset.jpg"
+          src="/img/sunset.jpg"
           width={720}
           height={600}
         />
