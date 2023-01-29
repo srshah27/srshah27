@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 
 export const MainFrame = () => {
-  const Sunset = '/static/img/tiger.png'
+  const Sunset = '/static/img/Tiger.png'
   return (
     <section className="text-white">
       <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto">
         <Image
           className="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
-          alt="hero"
+          alt="lmao"
           src={Sunset}
           width={200}
           height={200}
