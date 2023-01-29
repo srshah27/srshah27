@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Sunset from '../public/img/sunset.JPG'
 
 export const MainFrame = () => {
-  const image = '/img/sunset.JPG'
+  const Sunset = '/static/img/sunset.JPG'
   return (
     <section className="text-white">
       <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto">
