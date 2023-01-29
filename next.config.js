@@ -9,6 +9,8 @@ const nextConfig = {
       'imagedelivery.net',
     ],
   },
+  assetPrefix: '/',
+  basePath: '/srshah27.github.io',
 }
 
 module.exports = nextConfig
