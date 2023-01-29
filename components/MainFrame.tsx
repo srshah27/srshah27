@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-// import Sunset from '/img/sunset.JPG'
+import Sunset from '/img/sunset.JPG'
 
 export const MainFrame = () => {
   const image = '/img/sunset.JPG'
@@ -10,7 +10,7 @@ export const MainFrame = () => {
         <Image
           className="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
           alt="hero"
-          src="/img/sunset.JPG"
+          src={Sunset}
           width={720}
           height={600}
         />
