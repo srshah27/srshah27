@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <svg
+        id="visual"
+        viewBox="0 0 960 540"
+        width="960"
+        height="540"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g>
+          <g transform="translate(837 396)">
+            <path id="blob1"
+              d="M10.6 10.5C-6.7 36 -55.1 47.9 -62.1 28.4C-69 8.9 -34.5 -42 -10.3 -47.9C13.9 -53.9 27.8 -14.9 10.6 10.5Z"
+              fill="none"
+              stroke="#fbdba3"
+              stroke-width="20"
+            ></path>
+          </g>
+          <g transform="translate(50 53)">
+            <path id="blob2"
+              d="M42.1 28.9C29.1 46.9 -24.6 46 -38.4 27.6C-52.1 9.2 -26.1 -26.8 0.7 -26.4C27.6 -26 55.1 10.9 42.1 28.9Z"
+              fill="none"
+              stroke="#fbdba3"
+              stroke-width="20"
+            ></path>
+          </g>
+          <g transform="translate(471 168)">
+            <path id="blob3"
+              d="M28.5 18.4C20.1 31 -15.1 30.1 -24.4 17C-33.6 3.9 -16.8 -21.2 0.8 -20.8C18.5 -20.3 36.9 5.9 28.5 18.4Z"
+              fill="none"
+              stroke="#fbdba3"
+              stroke-width="20"
+            ></path>
+          </g>
+          <g transform="translate(97 376)">
+            <path id="blob4"
+              d="M17.6 10.5C7.5 27.7 -26.6 31.4 -33.6 16C-40.5 0.6 -20.3 -33.9 -3.2 -35.7C13.9 -37.5 27.8 -6.7 17.6 10.5Z"
+              fill="none"
+              stroke="#fbdba3"
+              stroke-width="20"
+            ></path>
+          </g>
+        </g>
+      </svg>
+      <script>
+        const tween1 = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { duration: 1000, repeat: 999, yoyo: true }
+        )
+        tween1.start()
+        const tween2 = KUTE.fromTo(
+          '#blob2',
+          { path: '#blob2' },
+          { path: '#blob3' },
+          { duration: 1000, repeat: 999, yoyo: true }
+        )
+        tween1.start()
+        const tween3 = KUTE.fromTo(
+          '#blob3',
+          { path: '#blob3' },
+          { path: '#blob4' },
+          { duration: 1000, repeat: 999, yoyo: true }
+        )
+        tween1.start()
+        const tween4 = KUTE.fromTo(
+          '#blob4',
+          { path: '#blob4' },
+          { path: '#blob1' },
+          { duration: 1000, repeat: 999, yoyo: true }
+        )
+        tween1.start()
+        tween2.start()
+        tween3.start()
+        tween4.start()
+
+      </script>
+    </section>
+  </body>
+</html>
