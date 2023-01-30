@@ -3,7 +3,7 @@ import Image from 'next/image'
 import baseUrl from '@/lib/baseURL'
 
 export const MainFrame = () => {
-  const Sunset = `${ baseUrl }/static/img/Tiger.png`
+  const Sunset = `/static/img/Tiger.png`
   return (
     <section className="text-white">
       <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto">
