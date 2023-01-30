@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import baseUrl from '@/lib/baseURL'
 
+
+const base = '/srshah27'
 export const MainFrame = () => {
   const Sunset = `/static/img/Tiger.png`
   return (
@@ -10,7 +12,7 @@ export const MainFrame = () => {
         <Image
           className="object-cover object-center w-5/6 mb-10 rounded lg:w-2/6 md:w-3/6"
           alt="lmao"
-          src={Sunset}
+          src={base + Sunset}
           width={200}
           height={200}
         />
